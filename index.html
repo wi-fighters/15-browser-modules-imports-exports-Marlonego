@@ -30,15 +30,15 @@
                 <legend>Modulo</legend>
                 <div class="form-row align-items-center mb-3">
                     <div class="col">
-                        <input type="number" id="modulo_1" class="arithmetic operand form-control" value="0" step="1" />
+                        <input type="number" id="modulo_1" class="arithmetic operand form-control" placeholder="0" step="1" />
                     </div>
                     <span class="operator font-weight-bold lead">%</span>
                     <div class="col">
-                        <input type="number" id="modulo_2" class="arithmetic operand form-control" value="0" step="1" />
+                        <input type="number" id="modulo_2" class="arithmetic operand form-control" placeholder="0" step="1" />
                     </div>
                     <span class="arithmetic operator font-weight-bold lead">=</span>
                     <div class="col">
-                        <input type="number" id="modulo_result" readonly class="result form-control" value="0"
+                        <input type="number" id="modulo_result" readonly class="result form-control" placeholder="0"
                             data-operation="modulo" />
                     </div>
                 </div>
@@ -68,6 +68,8 @@
                 </div>
             </form>
 
+
+            
             <form id="percentageOf-form">
                 <div class="form-row align-items-center mb-3">
                     <div class="col">
@@ -87,6 +89,8 @@
                     <span class="lead">%</span>
                 </div>
             </form>
+
+
 
             <form id="difference-form">
                 <span class="lead"> What is the percentage increase/decrease from </span>
@@ -138,7 +142,9 @@
             </form>
         </div>
     </main>
- 
+
+
+ <script type="module" src="./modules/index.js"></script>
 </body>
 
 </html>
